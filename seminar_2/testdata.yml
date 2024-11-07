@@ -1,10 +1,12 @@
 # Authorization settings
 address: https://test-stand.gb.ru
+username: "petronas"
+password: "be3d835429"
+
+# Browser settings
 browser: chrome
 sleep_time: 2
 wait: "3"
-username: "petronas"
-password: "be3d835429"
 
 # Lorem settings
 length_title: 1         # count word
