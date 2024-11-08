@@ -91,15 +91,24 @@ class OperationsHelper(BasePage):
         field.clear()
         field.send_keys(word)
 
+    def get_name_field(self):
+        return self.get_element_property(TestSearchLocators.LOCATOR_CONTACT_US_NAME_FIELD, "value")
+
     def enter_email_contact(self, word):
         field = self.find_elements(TestSearchLocators.LOCATOR_CONTACT_US_EMAIL_FIELD)
         field.clear()
         field.send_keys(word)
 
+    def get_email_field(self):
+        return self.get_element_property(TestSearchLocators.LOCATOR_CONTACT_US_EMAIL_FIELD, "value")
+
     def enter_content_contact(self, word):
         field = self.find_elements(TestSearchLocators.LOCATOR_CONTACT_US_CONTENT_FIELD)
         field.clear()
         field.send_keys(word)
+
+    def get_content_field(self):
+        return self.get_element_property(TestSearchLocators.LOCATOR_CONTACT_US_CONTENT_FIELD, "value")
 
     def click_send_form_bth(self):
         self.find_elements(TestSearchLocators.LOCATOR_CONTACT_US_SEND_FORM_BTN).click()
