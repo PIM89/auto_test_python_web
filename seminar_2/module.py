@@ -1,7 +1,6 @@
 import yaml
 import time
 
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -11,6 +10,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 with open("testdata.yml") as f:
     testdata = yaml.safe_load(f)
     browser = testdata["browser"]
+
 
 class Site:
     def __init__(self, address):
@@ -39,9 +39,6 @@ class Site:
     def get_element_property(self, mode, path, property_elem):
         elem = self.find_element(mode, path)
         return elem.value_of_css_property(property_elem)
-
-    def close(self):
-        self.driver.quit()
 
     def refresh(self):
         self.driver.refresh()

@@ -85,6 +85,7 @@ def x_selector_content():
 def x_selector_create_title():
     return """//*[@id="app"]/main/div/div[1]/h1"""
 
+
 @pytest.fixture()
 def bth_selector_create_post():
     return """//*[@id="create-item"]/div/div/div[7]/div/button"""
