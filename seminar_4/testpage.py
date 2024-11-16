@@ -66,7 +66,7 @@ class OperationsHelper(BasePage):
         except:
             logging.exception(f"Exception while get text from {element_name}")
             return None
-        logging.info(f"We find text {text} in field {element_name}")
+        logging.debug(f"We find text {text} in field {element_name}")
         return text
 
     def enter_login(self, word):
