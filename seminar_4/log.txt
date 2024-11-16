@@ -1,0 +1,12 @@
+2024-11-16 18:06:05 INFO ====== WebDriver manager ======
+2024-11-16 18:06:05 INFO Get LATEST chromedriver version for google-chrome
+2024-11-16 18:06:05 INFO Get LATEST chromedriver version for google-chrome
+2024-11-16 18:06:05 INFO Driver [C:\Users\Илья\.wdm\drivers\chromedriver\win64\130.0.6723.116\chromedriver-win32/chromedriver.exe] found in cache
+2024-11-16 18:06:06 INFO Test 1 start
+2024-11-16 18:06:08 INFO We find text 401 in field Get text error
+2024-11-16 18:06:08 INFO Test 2 start
+2024-11-16 18:06:09 INFO We find text Hello, petronas in field Get user text HELLO!
+2024-11-16 18:06:09 INFO Test 3 start
+2024-11-16 18:06:11 INFO We find text in in field Get new post title
+2024-11-16 18:06:11 INFO Test 4. Start...
+2024-11-16 18:06:12 INFO We find text Contact us! in field Get contact us text

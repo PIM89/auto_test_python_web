@@ -16,7 +16,7 @@ def login():
 
 @pytest.fixture()
 def test_text():
-    return "Тестовый заголовок"
+    return "Hello"
 
 @pytest.fixture()
 def create_post_information():
